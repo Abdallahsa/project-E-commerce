@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a  href="index.html">Home</a></li>
+                <li><a href="shope.html">Shope</a></li>
+                <li><a  href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a  href="contact.html">Contact</a></li>
+                <li  id="lg-bag"><a class="active" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="far fa-time"></i></a>
+            </ul>
+        </nav>
+    </section>
+    <section id="page-header" class="about-header">
+        <h2>#Let's_talk</h2>
+        <p>LEAVE A MASSAGE,WE LOVE TO HEAR FROM YOU!</p>
+    </section>
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <th>Remove</th>
+                    <th>Image</th>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+             </thead>
+
+            <tbody>
+                <tr>
+                    <td><i class="fas fa-times"></i></td>
+                    <td><img src="img/products/f1.jpg" alt=""></td>
+                    <td>Product 1</td>
+                    <td name="price">$100</td>
+                    <td><input type="number" value="1"name='value'min="0" onchange="sum(this.value,0)"></td>
+                    <td name="total">$100</td>
+                </tr>
+                <tr>
+                    <td><i class="fas fa-times"></i></td>
+                    <td><img src="img/products/f2.jpg" alt=""></td>
+                    <td >Product 2</td>
+                    <td name="price">$100</td>
+                    <td><input type="number" value="1"name='value'min="0" onchange="sum(this.value,1)"></td>
+                    <td name="total">$100</td>
+                </tr>
+                
+                <tr>
+                    <td><i class="fas fa-times"></i></td>
+                    <td><img src="img/products/f3.jpg" alt=""></td>
+                    <td>Product 3</td>
+                    <td name="price">$100</td>
+                    <td><input type="number" value="1"name='value' min="0" onchange="sum(this.value,2)"></td>
+                    <td name="total">$100</td>
+                </tr>
+                
+                <tr>
+                    <td><i class="fas fa-times"></i></td>
+                    <td><img src="img/products/f4.jpg" alt=""></td>
+                    <td>Product 4</td>
+                    <td name="price">$100</td>
+                    <td><input type="number" value="1"name='value' onchange="sum(this.value,3)" min="0"></td>
+                    <td name="total">$100</td>
+                </tr>
+
+             </tbody>
+            
+            
+        </table>
+    </section>
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>coupon</h3>
+             <div>
+                
+                    <input type="text" placeholder="Enter your coupon code">
+                    <button>Apply coupon</button>
+             </div>
+        </div>
+        <div id="total">
+            <h3>cart totals</h3><br>
+           <table>
+                <tr>
+                     <td>Subtotal</td>
+                     <td><strong>$375</strong></td>
+                </tr>
+                <tr>
+                 <td>Shipping</td>
+                 <td>Free </td>
+                </tr>
+                <tr>
+                    <td id="cost">Total</td>
+                    <td id="cost" name="res"><strong>$400</strong></td>
+                </tr>
+           </table>
+           <button class="normal"></buttonc>Proceed to checkout</button>
+
+           
+        </div>
+    </section>
+   
+    <section id="newletter" class="section-p1">
+     <div class="newtext">
+        <h2>Subscribe to our newsletter</h2>
+        <p>Get E-mail updates about our lofst shope and <span>special offers</span></p>
+     </div>
+     <div class="form">
+        <input type="text" placeholder="Enter your email">
+        <button >Subscribe</button>
+     </div>
+    </section>
+    <footer class="section-p1" id="footer">
+        <div class="cl">
+            <div class="footer-box">
+              
+                <div class="social">
+                    <img src="img/logo.png">
+                    <h3>about us</h3>
+                    <li class="fab fa-facebook-f"></li>
+                    <li class="fab fa-twitter"></li>
+                    <li class="fab fa-instagram"></li>
+                    <li class="fab fa-youtube"></li>
+                </div>
+                <h3>information</h3>
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Delivery information</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Terms & conditions</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="footer-box">
+                <h3>my account</h3>
+                <ul>
+                    <li><a href="#">My account</a></li>
+                    <li><a href="#">Order history</a></li>
+                    <li><a href="#">Wish list</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                    <li><a href="#">Returns</a></li>
+                </ul>
+            </div>
+            <div class="footer-box">
+                <h3>contact us</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i>Eygpt,Giza,Hawamdiya</li>
+                    <li><i class="fas fa-phone-alt"></i>+201122413562</li>
+                    <li><i class="fas fa-envelope"></i> abdallahsalh2@gmail.com</li>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-box">
+                <h3>payment</h3>
+                <ul>
+                    <li><i class="fab fa-cc-visa"></i>Visa</li>
+                    <li><i class="fab fa-cc-mastercard"></i>Mastercard</li>
+                    <li><i class="fab fa-cc-paypal"></i>Paypal</li>
+                    <li><i class="fab fa-cc-discover"></i>Discover</li>
+                    <li><i class="fab fa-cc-amex"></i>Amex</li>
+                </ul>
+
+            </div>
+            <div id="copyright">
+                <p>© 2022 All Rights Reserved. Designed by <a href="#">Abdallah Salh</a></p>
+            </div>
+
+        </div>
+
+
+        
+    </footer>
+    <script>
+        //function chane value in total bepand value*taotal
+        function sum(val,val2){
+            var total=document.getElementsByName('price');
+            var total=total[val2].innerHTML;
+            var total=total.replace('$','');
+            var total=parseInt(total);
+            var total=total*val;
+            document.getElementsByName('total')[val2].innerHTML="$"+total;
+            
+        }
+
+        //function change value in name='res' depands sum filed has name='value'
+        function sum2(){
+            var total1=document.getElementsByName('total');
+            var total1=total1[0].innerHTML;
+            var total=total1.replace('$','');
+            var total1=parseInt(total1);
+            var total2=document.getElementsByName('total');
+            var total2=total2[1].innerHTML;
+            var total2=total2.replace('$','');
+            var total2=parseInt(total2);
+            var total3=document.getElementsByName('total');
+            var total3=total3[2].innerHTML;
+            var total3=total3.replace('$','');
+            var total3=parseInt(total3);
+            var total4=document.getElementsByName('total');
+            var total4=total4[3].innerHTML;
+            var total4=total4.replace('$','');
+            var total4=parseInt(total4);
+            var total=total1+total2+total3+total4;
+            document.getElementsByName('res')[0].innerHTML="$"+total;
+        }
+    </script>
+
+</body>
+</html>

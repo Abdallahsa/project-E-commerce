@@ -705,7 +705,207 @@ footer h3{
   height: 100%;
  border-radius: 20px;
 }
+#about-app   a{
+  text-decoration: none;
+}
+#contact-details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#contact-details i{
+  font-size: 30px;
+  color: #1b53a8dc;
+  padding-right: 10px;
+  padding-bottom: 14px;
+}
+#contact-details h3{
+  color: #085f4cdc;
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#contact-details span{
+  color: #12df1c;
+  font-size: 16px;
+  font-weight: 800;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#form-details input{
+  width: 650px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
 
+
+}
+#form-details textarea{
+  width: 650px;
+  height: 100px;
+  border-radius: 9px;
+  font-size: 16px;
+  font-weight: 600;
+}
+#form-details button{
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  outline: none;
+  background-color: #088178;
+  color: #f1f8f8;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+
+}
+#form-details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 30px;
+
+}
+.pepole span{
+  color: #000000dc;
+  font-size: 19px;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.pepole div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.pepole div p{
+  line-height: 25px;
+  padding-left: 15px;
+}
+.pepole image{
+  padding-right: 15px;
+}
+/*page cart*/
+#cart table{
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  white-space: normal;
+}
+#cart img{
+  width: 70px;
+}
+#cart th{
+  background-color: #1b817ad2;
+  color: #f1f8f8;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  padding: 10px 0;
+}
+#cart td{
+  color: #000000;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  padding: 10px 0;
+}
+
+#cart table input{
+  width: 50px;
+  height: 30px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #000000;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+#coupon h3{
+  color: #000000;
+  font-size: 30px;
+  font-weight: 750;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#coupon input{
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #000000;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+#coupon button{
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  outline: none;
+  background-color: #088178;
+  color: #f1f8f8;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+#coupon button:hover{
+  background-color: rgba(235, 16, 16, 0.863);
+}
+
+#cart-add{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
+#total{
+  padding-top: 50px;
+  padding: 30px;
+  padding-bottom: 30px;
+  padding-right: 100px;
+}
+#total table{
+  width: 150%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+#total table td{
+  color: #000000;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  padding: 10px 0;
+  border: 1px solid #ada7a7be;
+  padding-right: 50px;
+}
+#total button{
+  width: 270px;
+  height: 50px;
+  border-radius: 20px;
+  outline: none;
+  background-color: #088178;
+  color: #f1f8f8;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+#total #cost{
+ font-size: medium;
+ color: #f13a2d;
+}
+#total button:hover{
+  background-color: rgba(252, 6, 6, 0.863);
+}
 
 
 
